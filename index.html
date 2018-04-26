@@ -12,9 +12,14 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+  </ul>
+
   <header class="grid">
     <div class="unit xs-1">
-      <i class="icon i-128 logo">
+      <i class="icon i-192 logo">
         <img class="img-flex" src="images/spotify-logo-green.svg" alt="">
       </i>
       <nav class="">
@@ -25,7 +30,7 @@
           <li><a href="sign-up.html">Sign Up</a></li>
         </ul>
       </nav>
-    <div>
+    </div>
   </header>
 
   <section class="grid">
@@ -40,7 +45,7 @@
     </div>
   </section>
 
-  <section class="grid">
+  <section role="main" id="main" tabindex="0" class="grid">
     <div class="unit">
       <h2 class="mega">About Spotify</h2>
     </div>
@@ -66,10 +71,28 @@
 
   <section class="grid">
     <h2 class="unit xs-1 mega">Subscriptions</h2>
-    <ul class="unit list-group">
-      <li>FREE</li>
-      <li>Premium</li>
-    </ul>
+    <div class="">
+      <h3>FREE</h3>
+      <p>$0.00</p>
+      <p>CAD/month</p>
+      <ul>
+        <li>Shuffle play</li>
+        <li>Ad free</li>
+        <li>Access to all music</li>
+        <li>Create playlists</li>
+      </ul>
+    </div>
+    <div class="">
+      <h3>Premium</h3>
+      <p>$8.99</p>
+      <p>CAD/month</p>
+      <ul>
+        <li>Shuffle play</li>
+        <li>Ad free</li>
+        <li>Access to all music</li>
+        <li>Create playlists</li>
+      </ul>
+    </div>
   </section>
 
   <footer class="grid">
