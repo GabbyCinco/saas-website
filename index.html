@@ -8,16 +8,17 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:600,800" rel="stylesheet">
 </head>
 <body>
 
   <header class="grid">
-    <div class="unit">
-      <i class="icon i-128">
+    <div class="unit xs-1">
+      <i class="icon i-128 logo">
         <img class="img-flex" src="images/spotify-logo-green.svg" alt="">
       </i>
-      <nav>
-        <ul>
+      <nav class="">
+        <ul class="unit list-group list-group-inline">
           <li><a href="index.html">Home</a></li>
           <li><a href="tour.html">Tours</a></li>
           <li><a href="pricing.html">Pricing</a></li>
@@ -31,7 +32,9 @@
     <div class="unit">
       <img class="img-flex" src="images/home-banner.jpg" alt="">
     </div>
-    <h1>Worlwide Music</h1>
+    <div class="unit xs-1">
+      <h1 class="giga">Worlwide Music</h1>
+    </div>
     <div class="unit">
       <a href="sign-up.html">Sign Up FREE</a>
     </div>
@@ -39,7 +42,7 @@
 
   <section class="grid">
     <div class="unit">
-      <h2>About Spotify</h2>
+      <h2 class="mega">About Spotify</h2>
     </div>
     <div class="unit">
       <figure>
@@ -61,6 +64,14 @@
     </div>
   </section>
 
+  <section class="grid">
+    <h2 class="unit xs-1 mega">Subscriptions</h2>
+    <ul class="unit list-group">
+      <li>FREE</li>
+      <li>Premium</li>
+    </ul>
+  </section>
+
   <footer class="grid">
     <div class="unit xs-1">
       <ul class="list-group">
@@ -80,7 +91,13 @@
         </li>
       </ul>
     </div>
-    <div>
+    <div class="unit">
+      <ul class="list-group kilo">
+        <li>FAQs</li>
+        <li>Terms of service</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </div>
   </footer>
 
 </body>
