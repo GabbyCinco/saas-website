@@ -2,3 +2,26 @@
   margin: 0 auto;
   display: block;
 }
+
+header {
+  background-color: #070707;
+}
+
+.green {
+  color: #54BA5F;
+}
+
+.white {
+  color: #fff;
+}
+
+.subscriptions {
+  background-color: #2B3D69;
+}
+
+.card {
+  border-style: double;
+  border-color: #54BA5F;
+  border-width: 6px;
+  color: #fff;
+}
