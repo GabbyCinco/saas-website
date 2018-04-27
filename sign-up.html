@@ -33,36 +33,58 @@
       <img class="img-flex" src="images/home-banner.jpg" alt="">
     </div>
     <div class="unit xs-1">
-      <h1 class="giga">Worlwide Music</h1>
-    </div>
-    <div class="unit">
-      <a href="sign-up.html">Sign Up FREE</a>
+      <h1 class="giga">Join Us!</h1>
     </div>
   </section>
 
-  <section class="grid">
-    <div class="unit">
-      <h2 class="mega">About Spotify</h2>
-    </div>
-    <div class="unit">
-      <figure>
-        <img class="img-flex" src="images/1earphones.jpg" alt="">
-        <figcaption>You can find countless songs on Spotify! Create playlists of your favourite songs and discover new music.</figcaption>
-      </figure>
-    </div>
-    <div class="unit">
-      <figure>
-        <img class="img-flex" src="images/2dark-phone.jpg" alt="">
-        <figcaption>Jam out to premade playlists or create your own according to certain artists, genres or moods.</figcaption>
-      </figure>
-    </div>
-    <div class="unit">
-      <figure>
-        <img class="img-flex" src="images/3person-in-car.jpg" alt="">
-        <figcaption>Access your music on other devices and enjoy anywhere.</figcaption>
-      </figure>
-    </div>
-  </section>
+  <form class="gutter-1-2 form" method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
+      <fieldset>
+        <legend class="personal mega push">Personal details</legend>
+        <div class="grid ">
+          <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="name">First Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="name-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="name">Last Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="age">Date of birth</label>
+            <input id="age" type="date" name="age">
+          </div>
+          <div class="email-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="subject">Gender</label>
+            <select id="subject" name="_subject">
+              <option>Gender</option>
+              <option>Female</option>
+              <option>Male</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1">
+            <label for="address">Address</label>
+            <textarea id="address" name="address"></textarea>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="activities light-green-border push-0 pad-t pad-b">
+          <div class="push-2">
+            <input id="digging" type="radio" name="agree">
+            <label for="digging">I agree to the Spotify's Terms of Service and Privacy policy.</label>
+
+            <input id="dirty" type="radio" name="agree">
+            <label for="dirty">I disagree to the Spotify's Terms of Service and Privacy policy.</label>
+        </div>
+        <div class="pad-t-1-8 center-content-horizontal push-2">
+          <button class="btn" type="submit">Sign Up</button>
+        </div>
+        <input type="hidden" name="_subject" value="Request to join the mission">
+      </fieldset>
 
   <footer class="grid">
     <div class="unit xs-1">
